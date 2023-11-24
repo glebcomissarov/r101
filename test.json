@@ -1,11 +1,20 @@
 [
   {
-    "name": "Alex",
+    "name": "Alex Social",
     "age": 25,
-    "email": "hello@email.rs"
+    "accounts": {
+      "email": "user1@email.rs",
+      "phone": "+7 000 000-00-00",
+      "connected_socials": [
+        {"X":  "@noname_x"},
+        {"Telegram":  "@noname_tg"}
+      ]
+    }
   },
   {
-    "name": "James",
-    "age": 18
+    "name": "James Hidden",
+    "accounts": {
+      "email": "user2@email.rs"
+    }
   }
 ]
